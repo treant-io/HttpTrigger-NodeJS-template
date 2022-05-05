@@ -19,6 +19,6 @@ jobs:
         with:
           source_dir: './'
           connection_string: ${{ secrets.CONNECTIONSTRING }}
-          container_name: test
+          container_name: 'templates/http-trigger-nodejs'
           extra_args: '--pattern *.zip'
           sync: false
